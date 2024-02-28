@@ -7,7 +7,18 @@ class Rads extends ConsoleProgram {
   
   public void run() {
     
-    // start coding here
+    // variables 
+    double dblRadian;
+    double dblDegree;
+
+    //input
+    dblDegree = readDouble("The degree measurement is: ");
+
+    //degree to rad 
+    dblRadian = Math.toRadians(dblDegree);
+
+    //output
+    System.out.println(dblDegree + "degree: " + dblRadian+ "radian ");
     
   }
 }
